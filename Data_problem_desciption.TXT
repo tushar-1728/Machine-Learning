@@ -1,0 +1,25 @@
+House-votes dataset (the task is to predict whether the voter is a republican or a democrat based on their votes; the data description
+file can be found below). It has 16 binary attributes and 2 classes.
+
+ClassName.
+handicapped-infants: y,n
+water-project-cost-sharing: y,n
+adoption-of-the-budget-resolution: y,n
+physician-fee-freeze: y,n
+el-salvador-aid: y,n
+religious-groups-in-schools: y,n
+anti-satellite-test-ban: y,n
+aid-to-nicaraguan-contras: y,n
+mx-missile: y,n
+immigration: y,n
+synfuels-corporation-cutback: y,n
+education-spending: y,n
+superfund-right-to-sue: y,n
+crime: y,n
+duty-free-exports: y,n
+export-administration-act-south-africa: y,n
+ClassName: democrat, republican
+=======================================================================================================
+
+Estimate the accuracy of Naive Bayes algorithm using 5-fold cross validation on the house-votes-84 data set. 
+Estimate the precision, recall, accuracy, and F-measure (You need to choose the appropriate options for missing values).
