@@ -39,19 +39,19 @@ For implementing 5-fold cross validation, we have divided the dataset into 5 bin
 Naïve Bayes Classifier is a probabilistic classifier based on Bayes theorem which uses both conditional probability and simple probability and is given by:
 
 <p>
-    <img src="https://latex.codecogs.com/png.latex?\dpi{400}\normalsize P(h|D)=\frac{P(D|h)P(h)}{P(D)}">
+    <img src="./images/bayes-theoram.png" width=250>
 </p>
 <p>
-    <img src="https://latex.codecogs.com/png.latex?\dpi{400}\normalsize P(h)\hspace{1mm}=\hspace{1mm}prior\hspace{1mm}probability\hspace{1mm}of\hspace{1mm}hypothesis\hspace{1mm}$h$\hspace{1mm}">
+    <img src="./images/bayes-theoram-4.png" width=400>
 </p>
 <p>
-    <img src="https://latex.codecogs.com/png.latex?\dpi{400}\normalsize P(D|h)\hspace{1mm}=\hspace{1mm}probability\hspace{1mm}of\hspace{1mm}$D$\hspace{1mm}given\hspace{1mm}$h$\hspace{1mm}">
+    <img src="./images/bayes-theoram-3.png" width=400>
 </p>
 <p>
-    <img src="https://latex.codecogs.com/png.latex?\dpi{400}\normalsize P(h|D)\hspace{1mm}=\hspace{1mm}probability\hspace{1mm}of\hspace{1mm}$h$\hspace{1mm}given\hspace{1mm}$D$\hspace{1mm}">
+    <img src="./images/bayes-theoram-1.png" width=450>
 </p>
 <p>
-    <img src="https://latex.codecogs.com/png.latex?\dpi{400}\normalsize P(D|h)\hspace{1mm}=\hspace{1mm}probability\hspace{1mm}of\hspace{1mm}$D$\hspace{1mm}given\hspace{1mm}$h$\hspace{1mm}">
+    <img src="./images/bayes-theoram-2.png" width=400>
 </p>
 
 <!-- <img src="https://latex.codecogs.com/svg.latex?\Large h_{MAP}=\arg \max{h \in H} P(h|D)\nonumber"> -->
