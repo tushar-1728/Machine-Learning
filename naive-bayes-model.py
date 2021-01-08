@@ -67,20 +67,19 @@ class_column_no = 16
 
 prob_data = []
 
-for attribute in range(0, len(values[0]) - 1, 2):
+for attribute in range(class_column_no):
     for attr_value in range(type_attr_value):
         for class_value in range(type_class_value):
             temp = calc_cond_probablity(values, attribute, 16, attr_value, class_value)
             prob_data.append(temp)
 
 for i in range(0, len(values)):
-    for j in range(0, len(values[i]), 2):
+    for j in range(0, len(values[i])):
         if(values[i, j] == "?"):
-            values[i, j] = random.choice([0, 1])
-            # if(prob_data[4*j + int(str(0)+str(values[i, 16]), 2)] > prob_data[4*j + int(str(1)+str(values[i, 16]), 2)]):
-            #     values[i, j] = 0
-            # else:
-            #     values[i, j] = 1
+            if(prob_data[4*j + int(str(0)+str(values[i, 16]), 2)] > prob_data[4*j + int(str(1)+str(values[i, 16]), 2)]):
+                values[i, j] = 0
+            else:
+                values[i, j] = 1
 
 no_of_folds = 5
 bin_size = len(values) // no_of_folds

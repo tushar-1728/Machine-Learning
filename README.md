@@ -34,9 +34,9 @@ The graphs below show the above mentioned distributions:
 <img src="./images/water-project-cost-sharing.png" width="50%" height="50%"/>
 <img src="./images/mx-missile.png" width="50%" height="50%"/>
 
-## IMPLEMENTATION OF NAÏVE BAYES CLASSIFIER AND 5-FOLD CROSS VALIDATION
+## IMPLEMENTATION OF NAIVE BAYES CLASSIFIER AND 5-FOLD CROSS VALIDATION
 For implementing 5-fold cross validation, we have divided the dataset into 5 bins and in each of the 5 iterations, one bin is used as test-set and remaining four are used as train-set.
-Naïve Bayes Classifier is a probabilistic classifier based on Bayes theorem which uses both conditional probability and simple probability and is given by:
+[Naive Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is a probabilistic classifier based on Bayes theorem which uses both conditional probability and simple probability and is given by:
 
 <p>
     <!-- https://latex.codecogs.com/png.latex?\dpi{400}\normalsize%20P(h|D)=\frac{P(D|h)P(h)}{P(D)} -->
@@ -59,5 +59,10 @@ Naïve Bayes Classifier is a probabilistic classifier based on Bayes theorem whi
     <img src="./images/bayes-theoram-4.png" width=450>
 </p>
 
+Both conditional and simple probability used in the Naïve Bayes classifier above is calculated by following functions:
 
-<!-- <img src="https://latex.codecogs.com/svg.latex?\Large h_{MAP}=\arg \max{h \in H} P(h|D)\nonumber"> -->
+![Simple probability](./images/simple-probablity.png)
+
+![Conditional probability](./images/conditional-probablity.png)
+
+Since we have 16 input attributes and 1 target attribute and both of them can take binary values, hence the likelihood we will be the multiplication of probability of any 16 combinations out of 64 possible combinations in total. The conditional probability for these 64 combinations is calculated by following code segment (where probability_data is the list storing probability for 64 combinations):
