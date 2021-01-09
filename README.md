@@ -21,7 +21,7 @@ The graphs below show the above mentioned distributions:
 <img src="./images/adoption-of-the-budget-resolution.png" width="50%" height="50%"/>
 <img src="./images/aid-to-nicaraguan-contras.png" width="50%" height="50%"/>
 <img src="./images/anti-satellite-test-ban.png" width="50%" height="50%"/>
-<img \src="./images/crime.png" width="50%" height="50%"/>
+<img src="./images/crime.png" width="50%" height="50%"/>
 <img src="./images/duty-free-exports.png" width="50%" height="50%"/>
 <img src="./images/education-spending.png" width="50%" height="50%"/>
 <img src="./images/el-salvador-aid.png" width="50%" height="50%"/>
@@ -75,8 +75,11 @@ The dataset used for training the Naïve Bayes classifier is randomized in every
 3. Recall : 89% to 91%
 4. Specificity : 92% to 94%
 5. F1 score : 0.92 to 0.93
-The following graphs show the metrics for a random run of the code for all the five iterations:
-<img src="./images/confusion_matrix0.png" width=500><img src="./images/confusion_matrix1.png" width=500>
-<img src="./images/confusion_matrix2.png" width=500>
-<img src="./images/confusion_matrix3.png" width=500>
-<img src="./images/confusion_matrix4.png" width=500>
+The following graphs show the metrics for a random run of the code for the first four iterations:
+
+
+|![Confusion matrix 0](./images/confusion_matrix0.png)|![Confusion matrix 1](./images/confusion_matrix1.png)|
+|---|---|
+|![Confusion matrix 2](./images/confusion_matrix2.png)|![Confusion matrix 3](./images/confusion_matrix3.png)|
+|---|---|
+
