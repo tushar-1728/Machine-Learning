@@ -81,5 +81,4 @@ The following graphs show the metrics for a random run of the code for the first
 |![Confusion matrix 0](./images/confusion_matrix0.png)|![Confusion matrix 1](./images/confusion_matrix1.png)|
 |---|---|
 |![Confusion matrix 2](./images/confusion_matrix2.png)|![Confusion matrix 3](./images/confusion_matrix3.png)|
-|---|---|
 
