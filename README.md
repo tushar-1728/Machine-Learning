@@ -66,3 +66,17 @@ Both conditional and simple probability used in the Naïve Bayes classifier abov
 ![Conditional probability](./images/conditional-probablity.png)
 
 Since we have 16 input attributes and 1 target attribute and both of them can take binary values, hence the likelihood we will be the multiplication of probability of any 16 combinations out of 64 possible combinations in total. The conditional probability for these 64 combinations is calculated by following code segment (where probability_data is the list storing probability for 64 combinations):
+![Hmap calculation](./images/hmap-calculation.png)
+
+## CONCLUSION AND ITS ANALYSIS
+The dataset used for training the Naïve Bayes classifier is randomized in every run, hence the metrics used for measuring the performance has the following range:
+1. Accuracy : 91% to 92%
+2. Precision : 95% to 96%
+3. Recall : 89% to 91%
+4. Specificity : 92% to 94%
+5. F1 score : 0.92 to 0.93
+The following graphs show the metrics for a random run of the code for all the five iterations:
+<img src="./images/confusion_matrix0.png" width=500><img src="./images/confusion_matrix1.png" width=500>
+<img src="./images/confusion_matrix2.png" width=500>
+<img src="./images/confusion_matrix3.png" width=500>
+<img src="./images/confusion_matrix4.png" width=500>
